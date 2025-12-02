@@ -1,2 +1,2 @@
-# 2D_tryp_tracking
-Pipeline for analyzing brightfield videos of T. brucei, including segmentation, centroid tracking, velocity extraction, beat-frequency analysis, and trajectory visualization in confined microchannels.
+## 2D Trypanosome Motility Analysis Pipeline
+This project implements a full analysis pipeline for brightfield videos of T. brucei, integrating TensorFlow segmentation with MATLAB-based post-processing. The workflow includes background correction, temporal filtering, and cell detection via DeepLabV3 or threshold-based segmentation. Cell centroids are tracked across frames to produce trajectories from which velocity and motion statistics are extracted. Additional modules estimate beat frequency from temporal intensity fluctuations and generate publication-quality trajectory visualizations.
